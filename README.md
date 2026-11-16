@@ -73,21 +73,40 @@ Aplikasi menyimpan data di dalam satu berkas basis data lokal yang terdiri dari 
 
 ---
 
-## 🚀 Langkah-langkah Menjalankan Aplikasi
+## Langkah-langkah Menjalankan Aplikasi
 
 Pastikan Anda sudah menginstal Flutter SDK di perangkat atau komputer Anda.
 
+### 1. Clone repositori
+
 Clone repositori ini ke komputer lokal Anda:
-git clone https://github.com/munazahrah/BAB-3---to-do---list.git
+
+```bash
+git clone https://github.com/munazahrah/Aplikasi-CashFlowy---UTS-Multiplatfrom-Programming.git
+```
+
+### 2. Masuk ke direktori project
 
 Masuk ke dalam direktori project:
+
+```bash
 cd to_do_list
+```
+
+### 3. Unduh package
 
 Unduh seluruh package / dependensi:
+
+```bash
 flutter pub get
+```
+
+### 4. Jalankan aplikasi
 
 Jalankan aplikasi di emulator atau perangkat fisik yang sudah terhubung:
 
+```bash
 flutter run
+```
 
 > **Catatan Pengembang:** Jika Anda sebelumnya pernah menjalankan versi lama aplikasi sebelum penambahan tabel `categories` dan kolom `deadline`, disarankan untuk melakukan **uninstall** aplikasi pada emulator/perangkat terlebih dahulu agar callback `onCreate` pada SQLite dapat membangun ulang skema tabel beserta data kategori awal secara bersih.
