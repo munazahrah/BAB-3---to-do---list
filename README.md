@@ -82,7 +82,7 @@ Pastikan Anda sudah menginstal Flutter SDK di perangkat atau komputer Anda.
 Clone repositori ini ke komputer lokal Anda:
 
 ```bash
-git clone https://github.com/munazahrah/Aplikasi-CashFlowy---UTS-Multiplatfrom-Programming.git
+git clone https://github.com/munazahrah/BAB-3---to-do---list.git
 ```
 
 ### 2. Masuk ke direktori project
